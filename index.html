@@ -7,119 +7,120 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" 
     integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" 
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/main.min.css">
+    <!-- <link rel="stylesheet" href="./css/styles.css"> -->
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <title>Студія</title>
 </head>
 <body>
-    <header class="fon header-container-line">
-        <div class="container header-container">
-            <nav class="header-container">
-            <a href="./index.html" class="logo"><span class="web">Web</span>Studio</a>
-                <ul class="header-container link-header">
-                    <li class="link-nav-header">
-                        <a class="link-nav ccurrent" href="./index.html">Студія</a>
+    <header class="header header-line">
+        <div class="container header__container">
+            <nav class="header__container">
+            <a href="./index.html" class="logo--primary"><span class="logo--web">Web</span>Studio</a>
+                <ul class="header__container header__link">
+                    <li class="header__nav">
+                        <a class="nav__link nav__link--ccurrent" href="./index.html">Студія</a>
                     </li>
-                    <li class="link-nav-header">
-                        <a class="link-nav" href="./portfolio.html">Портфоліо</a>
+                    <li class="header__nav">
+                        <a class="nav__link" href="./portfolio.html">Портфоліо</a>
                     </li>
-                    <li class="link-nav-header">
-                        <a class="link-nav" href="./index.html">Контакти</a>
+                    <li class="header__nav">
+                        <a class="nav__link" href="./index.html">Контакти</a>
                     </li>
                 </ul>
             </nav>
-            <ul class="header-container link-header header-contact">
-                <li><a class="contact contact-mail" href="mailto:info@devstudio.com"> 
-                    <svg class="mail-icon" width="16" height="12">
+            <ul class="header__container header__link header__contact ">
+                <li><a class="nav__contact nav__mail" href="mailto:info@devstudio.com"> 
+                    <svg class="mail__icon" width="16" height="12">
                     <use href="./img/icons.svg#mail"></use>
                   </svg>info@devstudio.com</a></li>
-                <li><a class="contact" href="tel:+380961111111">
-                    <svg class="phone-icon" width="10" height="16">
+                <li><a class="nav__contact" href="tel:+380961111111">
+                    <svg class="phone__icon" width="10" height="16">
                     <use href="./img/icons.svg#phone"></use>
                   </svg>+38 096 111 11 11</a></li>
             </ul>
         </div>
     </header>
     <main>
-        <section class="main-block section">
-            <div class="container main-section">
-                <h1 class="general-title">Ефективні рішення для вашого бізнесу</h1>
-                <button class="bt-order" type="button" data-modal-open>Замовити послугу</button>
+        <section class="hero__block section">
+            <div class="container hero__text">
+                <h1 class="hero__title">Ефективні рішення для вашого бізнесу</h1>
+                <button class="hero__bt" type="button" data-modal-open>Замовити послугу</button>
             </div>
         </section>
-        <section class="section-feature-main">
+        <section class="advances">
             <div class="container">
                 <h2 class="visually-hidden"> Переваги</h2>
                 <ul class="Feature">
-                    <li class="feature-main">
-                        <div class="feature-icon-main">
-                            <svg class="feature-icon" width="70" height="70">
+                    <li class="advances__list">
+                        <div class="advances__label">
+                            <svg class="advances__icon" width="70" height="70">
                             <use href="./img/icons.svg#antenna"></use>
                             </svg>
                         </div>
-                            <h3 class="perevagy">УВАГА ДО ДЕТАЛЕЙ</h3>
-                            <p class="perevagy-info">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.
+                            <h3 class="advances__title">УВАГА ДО ДЕТАЛЕЙ</h3>
+                            <p class="advances__info">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.
                             </p>
                     </li>
-                    <li class="feature-main">
-                        <div class="feature-icon-main">
-                            <svg class="feature-icon" width="70" height="70">
+                    <li class="advances__list">
+                        <div class="advances__label">
+                            <svg class="advances__icon" width="70" height="70">
                             <use href="./img/icons.svg#clock"></use>
                             </svg>
                         </div>
-                            <h3 class="perevagy">ПУНКТУАЛЬНІСТЬ</h3>
-                            <p class="perevagy-info">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.
+                            <h3 class="advances__title">ПУНКТУАЛЬНІСТЬ</h3>
+                            <p class="advances__info">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.
                             </p>
                     </li>
-                    <li class="feature-main">
-                        <div class="feature-icon-main">
-                            <svg class="feature-icon" width="70" height="70">
+                    <li class="advances__list">
+                        <div class="advances__label">
+                            <svg class="advances__icon" width="70" height="70">
                             <use href="./img/icons.svg#diagram"></use>
                             </svg>
                         </div>
-                            <h3 class="perevagy">ПЛАНУВАННЯ</h3>
-                            <p class="perevagy-info">Так само консультація з широким активом значною мірою зумовлює.
+                            <h3 class="advances__title">ПЛАНУВАННЯ</h3>
+                            <p class="advances__info">Так само консультація з широким активом значною мірою зумовлює.
                             </p>
                     </li>
-                    <li class="feature-main">
-                        <div class="feature-icon-main">
-                            <svg class="feature-icon" width="70" height="70">
+                    <li class="advances__list">
+                        <div class="advances__label">
+                            <svg class="feature__icon" width="70" height="70">
                             <use href="./img/icons.svg#astronaut"></use>
                             </svg>
                         </div>
-                            <h3 class="perevagy">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-                            <p class="perevagy-info">Значимість цих проблем настільки очевидна, що реалізація планових завдань.
+                            <h3 class="advances__title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+                            <p class="advances__info">Значимість цих проблем настільки очевидна, що реалізація планових завдань.
                             </p>
                     </li>
                 </ul>
             </div>
         </section>
-        <section class="work-us-main">
+        <section class="applications">
             <div class="container">
-                <h2 class="title-block">Чим ми займаємося</h2>
-                <div class="work-us">
-                    <ul class="work-img">
+                <h2 class="applications__title">Чим ми займаємося</h2>
+                <div class="applications__label">
+                    <ul class="applications__img">
                             <li>
-                                <div class="wrapper">
+                                <div class="applications__wrapper">
                                         <img src="./img/kod.jpg" alt="код" width="370">
-                                    <div class="overlay-box-work">
-                                        <p class="overlay-text-work">Десктопні додатки</p>
+                                    <div class="overlay__box__work">
+                                        <p class="overlay__text__work">Десктопні додатки</p>
                                     </div>
                                 </div>
                             </li>
                         <li>
-                            <div class="wrapper">
+                            <div class="applications__wrapper">
                                 <img src="./img/phone.jpg" alt="телефон" width="370">
-                                <div class="overlay-box-work">
-                                    <p class="overlay-text-work">Мобільні додатки</p>
+                                <div class="overlay__box__work">
+                                    <p class="overlay__text__work">Мобільні додатки</p>
                                 </div>
                             </div>
                         </li>
                         <li>
-                            <div class="wrapper">
+                            <div class="applications__wrapper">
                                     <img src="./img/tablet.jpg" alt="планшет" width="370">
-                                <div class="overlay-box-work">
-                                    <p class="overlay-text-work">Дизайнерські рішення</p>
+                                <div class="overlay__box__work">
+                                    <p class="overlay__text__work">Дизайнерські рішення</p>
                                 </div>
                             </div>
                         </li>
@@ -129,7 +130,7 @@
         </section>
         <section class="team">
             <div class="container">
-                <H2 class="title-block">Наша команда</H2>
+                <H2 class="applications__title">Наша команда</H2>
                 <ul class="team-people">
                     <li class="fon-people">
                         <img src="./img/demiyanenko.jpg" alt="Ігор Дем'яненко" width="270">
@@ -399,7 +400,7 @@
     <footer class="fon-footer">
         <div class="container  social-icon-footer">
             <div class="about-contacts">
-                <a href="./index.html" class="logo-footer"><span class="web">Web</span>Studio</a>
+                <a href="./index.html" class="logo--secondary"><span class="logo--web">Web</span>Studio</a>
                 <ul class="contacts">
                     <li class="map-mail-tel"><a class="map-link" href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9" target="_blank" rel="noopener noreferrer nofollow">м. Київ, пр-т Лесі Украінки, 26</a></li>
                     <li class="map-mail-tel"><a class="contact-footer" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
@@ -463,7 +464,7 @@
                         type="email"
                         placeholder="E-mail">
                     </label>
-                    <button class="bt-order bt-footer" type="button">Підписатися
+                    <button class="hero__bt bt-footer" type="button">Підписатися
                         <svg class="icon-send" width="24" height="24">
                         <use href="./img/icons.svg#icon-send"></use>
                         </svg>
